@@ -2,6 +2,7 @@ namespace SpriteKind {
     export const static = SpriteKind.create()
 }
 
+//  just testing
 let statusbar = statusbars.create(20, 4, StatusBarKind.Energy)
 statusbar.setFlag(SpriteFlag.Invisible, true)
 controller.A.onEvent(ControllerButtonEvent.Pressed, function on_a_pressed() {

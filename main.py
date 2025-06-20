@@ -1,6 +1,7 @@
 @namespace
 class SpriteKind:
-    static = SpriteKind.create()
+    static = SpriteKind.create()\
+# just testing
 statusbar = statusbars.create(20, 4, StatusBarKind.energy)
 statusbar.set_flag(SpriteFlag.INVISIBLE, True)
 def on_a_pressed():
