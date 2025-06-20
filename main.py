@@ -5,7 +5,7 @@ class SpriteKind:
 # Create the energy status bar and hide it initially
 statusbar = statusbars.create(20, 4, StatusBarKind.energy)
 statusbar.set_flag(SpriteFlag.INVISIBLE, True)
-
+# just to thing
 # Global variables
 laserSpeed = 200
 followSpeed = 20
