@@ -5,6 +5,7 @@ namespace SpriteKind {
 //  Create the energy status bar and hide it initially
 let statusbar = statusbars.create(20, 4, StatusBarKind.Energy)
 statusbar.setFlag(SpriteFlag.Invisible, true)
+//  just to thing
 //  Global variables
 let laserSpeed = 200
 let followSpeed = 20
